@@ -2,11 +2,9 @@ import SwiftUI
 import DailyPulseShared
 
 struct ContentView: View {
-	let greet = Greeting().greet()
-
-	var body: some View {
-		Text(greet)
-	}
+    var body: some View {
+        AboutScreen()
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
